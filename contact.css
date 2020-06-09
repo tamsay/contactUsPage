@@ -22,9 +22,9 @@ header{
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0%;
-    background: #B8D5F0;
+
 }
 #logoDiv{
     padding: 1em 0px 1em 3em;
@@ -69,7 +69,7 @@ nav li a:hover{
     grid-template-columns: 50% 50%;
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10em;
     height: auto;
 }
 #heading h2{
@@ -102,7 +102,7 @@ nav li a:hover{
     justify-content: center;
 }
 #registrationForm{    
-    border-radius: 10px;
+    
     /* border: 1px solid rgb(226, 93, 93); */
     border: 0.5px solid #F6AE2D;
     box-sizing: border-box;
@@ -135,13 +135,13 @@ label{
 input{
     width: 100%;
     height: 50px;
-    border-radius: 0px;
+    
     text-align: center;
 }
 textarea{
     width: 100%;
     height: 150px;
-    border-radius: 0px;    
+        
 }
 #submitBtn{
     background: #0D3644;
@@ -177,6 +177,9 @@ textarea{
     width: 100%;
     align-items: center;
     padding-top: 5em;
+    padding-bottom: 5em;
+    background: rgba(243, 243, 243, 0.37);
+    margin: 5em 0em;
 }
 #bookingSection h3{
     font-family: 'Playfair Display';
@@ -214,13 +217,13 @@ textarea{
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 7em 0em 0em 0em;
+    margin: 0em 0em 0em 0em;
     width: 100%;
+    padding: 0px;
     font-family: 'Muli Regular';
     font-style: normal;
     font-weight: normal;
     color: #0D3644;   
-    background: #B8D5F0;
 }
 footer div:nth-child(1){
     font-size: 1.2em;
@@ -261,7 +264,7 @@ footer div:nth-child(3){
         width: 100%;
         margin: 0px;
         padding: 0%;
-        background: #B8D5F0;
+    
     }
     #logoDiv{
         padding: 0.25em 1em;
@@ -297,8 +300,8 @@ footer div:nth-child(3){
         
     }
     .navbar-toggler{
-        padding: 15px 5px;
-        margin: 0px;
+        /* padding: 15px 15px; */
+        margin: 15px;
     }
     nav li a{
         text-decoration-line: none;
@@ -336,7 +339,7 @@ footer div:nth-child(3){
         justify-content: center;
     }
     #registrationForm{    
-        border-radius: 10px;
+        
         border: 0.5px solid #F6AE2D;
         box-sizing: border-box;
         display: flex;
@@ -366,7 +369,7 @@ footer div:nth-child(3){
     }
     input{
         width: 100%;
-        border-radius: 5px;
+        
         text-align: center;
         display: flex;
         justify-content: center;
@@ -376,7 +379,7 @@ footer div:nth-child(3){
     textarea{
         width: 100%;
         height: 100px;
-        border-radius: 5px;   
+           
         margin: 0px; 
     }
     #submitBtn{
@@ -386,8 +389,8 @@ footer div:nth-child(3){
         height: 30px;
         align-self: flex-end;
         border: none;
-        margin: 0em 1.25em 1em 0.5em;
-        border-radius: 5px;
+        margin: 0em 1.25em 1.5em 0.5em;
+        
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: bold;
@@ -413,6 +416,8 @@ footer div:nth-child(3){
         width: 100%;
         align-items: center;
         padding-top: 1em;
+        padding-bottom: 1em;
+        margin: 2.5em 0em 1.5em 0em;
     }
     #bookingSection h3{
         font-family: 'Playfair Display';
@@ -445,18 +450,18 @@ footer div:nth-child(3){
         text-align: center;
         color: #FFFFFF;
         margin-top: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 1em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
         width: 100%;
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: normal;
         color: #0D3644;   
-        background: #B8D5F0;
+    
     }
     footer div:nth-child(1){
         font-size: 2em;
@@ -497,7 +502,7 @@ footer div:nth-child(3){
         width: 100%;
         margin: 0px;
         padding: 0%;
-        background: #B8D5F0;
+    
     }
     #logoDiv{
         padding: 0.25em 1em;
@@ -535,8 +540,8 @@ footer div:nth-child(3){
         
     }
     .navbar-toggler{
-        padding: 15px;
-        margin: 0px;
+        /* padding: 15px; */
+        margin: 15px;
     }
     nav li a{
         text-decoration-line: none;
@@ -574,7 +579,7 @@ footer div:nth-child(3){
         justify-content: center;
     }
     #registrationForm{    
-        border-radius: 10px;
+        
         border: 0.5px solid #F6AE2D;
         box-sizing: border-box;
         display: flex;
@@ -606,13 +611,13 @@ footer div:nth-child(3){
     input{
         width: 100%;
         height: 40px;
-        border-radius: 5px;
+        
         text-align: center;
     }
     textarea{
         width: 100%;
         height: 100px;
-        border-radius: 5px;   
+           
         margin: 0px; 
     }
     #submitBtn{
@@ -623,7 +628,7 @@ footer div:nth-child(3){
         align-self: flex-end;
         border: none;
         margin: 0em 0.5em 1em 0.5em;
-        border-radius: 5px;
+        
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: bold;
@@ -649,6 +654,8 @@ footer div:nth-child(3){
         width: 100%;
         align-items: center;
         padding-top: 1em;
+        padding-bottom: 1em;
+        margin: 2.5em 0em;
     }
     #bookingSection h3{
         font-family: 'Playfair Display';
@@ -685,13 +692,13 @@ footer div:nth-child(3){
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 1em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
         width: 100%;
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: normal;
         color: #0D3644;   
-        background: #B8D5F0;
+    
     }
     footer div:nth-child(1){
         font-size: 2em;
@@ -729,7 +736,7 @@ footer div:nth-child(3){
         width: 100%;
         margin: 0px;
         padding: 0%;
-        background: #B8D5F0;
+    
     }
     #logoDiv{
         padding: 0.25em 1.5em;
@@ -766,8 +773,8 @@ footer div:nth-child(3){
         
     }
     .navbar-toggler{
-        padding: 15px;
-        margin: 0px;
+        /* padding: 15px; */
+        margin: 15px;
     }
     nav li a{
         text-decoration-line: none;
@@ -805,7 +812,7 @@ footer div:nth-child(3){
         justify-content: center;
     }
     #registrationForm{    
-        border-radius: 10px;
+        
         border: 0.5px solid #F6AE2D;
         box-sizing: border-box;
         display: flex;
@@ -837,13 +844,13 @@ footer div:nth-child(3){
     input{
         width: 100%;
         height: 40px;
-        border-radius: 5px;
+        
         text-align: center;
     }
     textarea{
         width: 100%;
         height: 100px;
-        border-radius: 5px;   
+           
         margin: 0px; 
     }
     #submitBtn{
@@ -854,7 +861,7 @@ footer div:nth-child(3){
         align-self: flex-end;
         border: none;
         margin: 0em 0.5em 1em 0.5em;
-        border-radius: 5px;
+        
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: bold;
@@ -880,6 +887,8 @@ footer div:nth-child(3){
         width: 100%;
         align-items: center;
         padding-top: 1em;
+        padding-bottom: 1em;
+        margin: 2.5em 0em;
     }
     #bookingSection h3{
         font-family: 'Playfair Display';
@@ -912,17 +921,19 @@ footer div:nth-child(3){
         text-align: center;
         color: #FFFFFF;
         margin-top: 20px;
+        margin-bottom: 15px;
     }
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 1em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
         width: 100%;
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: normal;
         color: #0D3644;   
-        background: #B8D5F0;
+        padding: 0px;
+    
     }
     footer div:nth-child(1){
         font-size: 2em;
@@ -961,7 +972,7 @@ footer div:nth-child(3){
         width: 100%;
         margin: 0px;
         padding: 0%;
-        background: #B8D5F0;
+    
     }
     #logoDiv{
         padding: 0.25em 1.5em;
@@ -1032,7 +1043,7 @@ footer div:nth-child(3){
         justify-content: center;
     }
     #registrationForm{    
-        border-radius: 10px;
+        
         border: 0.5px solid #F6AE2D;
         box-sizing: border-box;
         display: flex;
@@ -1063,13 +1074,13 @@ footer div:nth-child(3){
     input{
         width: 100%;
         height: 40px;
-        border-radius: 5px;
+        
         text-align: center;
     }
     textarea{
         width: 100%;
         height: 100px;
-        border-radius: 5px;   
+           
         margin: 0px; 
     }
     #submitBtn{
@@ -1080,7 +1091,7 @@ footer div:nth-child(3){
         align-self: flex-end;
         border: none;
         margin: 0em 1em 1em 0.5em;
-        border-radius: 5px;
+        
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: bold;
@@ -1105,13 +1116,15 @@ footer div:nth-child(3){
         text-align: center;
         width: 100%;
         align-items: center;
-        padding-top: 1em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        margin: 2.5em 0em;
     }
     #bookingSection h3{
         font-family: 'Playfair Display';
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 32px;
         color: #0D3644;
         margin-bottom: 0.5em;
     }
@@ -1138,17 +1151,18 @@ footer div:nth-child(3){
         text-align: center;
         color: #FFFFFF;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 1em 0em 0em 0em;
+        margin: 0em 0em 0em 0em;
         width: 100%;
         font-family: 'Muli Regular';
         font-style: normal;
         font-weight: normal;
         color: #0D3644;   
-        background: #B8D5F0;
+    
     }
     footer div:nth-child(1){
         font-size: 2.5em;
